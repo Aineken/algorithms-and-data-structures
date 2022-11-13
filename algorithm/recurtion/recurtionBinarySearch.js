@@ -27,3 +27,5 @@ console.log(recurtionBinarySearch(newArray, 54));
 console.log(recurtionBinarySearch(newArray, 4));
 console.log(recurtionBinarySearch(newArray, 43));
 console.log(recurtionBinarySearch(newArray, 540));
+
+// Big O = O (logn)
