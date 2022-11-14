@@ -13,3 +13,5 @@ function cartesianProcust(a, b) {
 let a = [2, 4, 5];
 let b = [3, 32];
 console.log(cartesianProcust(a, b));
+
+// Big O = O(a*b)
