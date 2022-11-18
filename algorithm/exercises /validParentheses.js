@@ -1,12 +1,12 @@
 var isValid = function (s) {
   var stack = [];
-  var len = s.length;
+
   var map = {
     "(": ")",
     "[": "]",
     "{": "}",
   };
-  for (var i = 0; i < len; i++) {
+  for (var i = 0; i < s.length; i++) {
     if (stack.length > 0 && map[stack[stack.length - 1]] === s[i]) {
       stack.pop();
     } else {
@@ -33,4 +33,4 @@ var isValid = function (s) {
   //   return true;
 };
 
-console.log(isValid("{}"));
+console.log(isValid("{[()]}()"));
