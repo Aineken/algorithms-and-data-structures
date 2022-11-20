@@ -1,5 +1,4 @@
-var isValid = function (s) {
-  debugger;
+const isValid = function (s) {
   var stack = [];
 
   var map = {
